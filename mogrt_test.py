@@ -13,7 +13,7 @@ sequence = project.activeSequence
 
 # Test inputs to add into the mogrt
 test_inputs = { "Text": "Hello World\nthis is a test",
-                "Font": "RealTextPro-Demibold",
+                "Font": "",
                 "Size": '50',
                 "Faux Bold": "False",
                 "Faux Italic": "False",
@@ -30,7 +30,6 @@ test_inputs = { "Text": "Hello World\nthis is a test",
                 "Highlight Scaling": 1,
                 "Stroke Width" : 8,
                 "Stroke Color": "#000000",
-                "placeholder" : ["Text", "Highlighter Timing"]
             }
 
 def set_mgt_properties(mgt_clip, settings):
